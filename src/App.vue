@@ -12,7 +12,6 @@ function changeData(data : Account) {
   accountStore.changeAccount(data);
 }
 function createRow() {
-  console.log(accountStore.Accounts.length)
   accountStore.changeAccount({
     id : accountStore.Accounts.length,
     markers: null,
